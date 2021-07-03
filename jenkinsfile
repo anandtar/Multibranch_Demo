@@ -20,5 +20,11 @@ steps{
 echo "Deploying the Project.........."
 }
 }
+stage('Live') 
+{
+steps{
+echo "Live Support.........."
+}
+}
 }
 }
