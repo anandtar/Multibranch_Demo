@@ -20,5 +20,11 @@ steps{
 echo "Deploying the Project.........."
 }
 }
+stage('Child Branch') 
+{
+steps{
+echo "Multibranch change.........."
+}
+}
 }
 }
